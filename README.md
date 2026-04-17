@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🏯 Bakuya Labs
+# Bakuya Labs 
 **High-Performance Full-Stack Engineering & Quantitative Solutions**
 
 *Engineered in New York, NY*
