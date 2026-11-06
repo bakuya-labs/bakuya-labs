@@ -1,40 +1,33 @@
-<div align="center">
+<a href="https://bakuyalabs.com">
+  <img src="assets/banner.svg" width="100%" alt="Bakuya Labs: realtime market data and trading software, built in New York">
+</a>
 
-# Bakuya Labs 
-**High-Performance Full-Stack Engineering & Quantitative Solutions**
+Bakuya Labs builds realtime market data and trading software: scanners, trading terminals, and the low-latency data feeds behind them.
 
-*Engineered in New York, NY*
+### Now shipping
 
-[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://aws.amazon.com/)
+<a href="https://topblast.gg">
+  <img src="assets/topblast.svg" width="100%" alt="TopBlast.gg: trade the moment it breaks. A realtime token scanner and trading terminal for Robinhood Chain.">
+</a>
 
----
+**[TopBlast](https://topblast.gg)** is a realtime token scanner and trading terminal for Robinhood Chain. It watches every pool on the chain and flags new launches, session highs and lows, and the first breakout of every run, in the block it happens. Live charts, a screener, a wallet tracker and one-click trading, all in the browser.
 
-### 🚀 Core Focus
-Bakuya Labs specializes in the intersection of modern full-stack architecture and algorithmic trading infrastructure. We build tools that bridge the gap between complex market data and actionable execution.
+<img src="assets/topblast-stats.svg" width="100%" alt="TopBlast by the numbers, snapshot from Nov 6, 2026: 397.7M swaps indexed since June 2026; 1.54M tokens tracked across 1.6M pools; 1.37M swaps in the last 24 hours, 15.3 per second right now; record day 12.0M swaps on Sep 4, 2026, an average of 139 per second. Includes a bar chart of daily swaps on Robinhood Chain from July to November 2026.">
 
-**Primary Domains:** `Algorithmic Trading` • `Real-time Data Systems` • `Fintech Web Apps` • `Cloud Infrastructure`
+Under the hood, TopBlast runs its own Robinhood Chain node and indexes every pool on the chain into a 317 GB TimescaleDB: 397.7M swaps and over a billion token transfers since June 2026. Today it processes about 16 swaps a second; on its record day it processed 12.0M swaps, an average of 139 a second.
 
-</div>
+<a href="https://topblast.gg/new-pairs">
+  <img src="assets/topblast-app.jpg" width="100%" alt="The TopBlast New Pairs screen: columns of new token launches, tokens in the final stretch of their bonding curve, and newly migrated pools, with a social feed on the left and trending tokens on the right.">
+</a>
 
-### 🏗️ Flagship Projects
+<sub>New Pairs: fresh launches, tokens in the final stretch of their bonding curve, and newly migrated pools side by side, with the social feed and trending tokens alongside.</sub>
 
-#### 🌊 [InsiderFlows](https://github.com/bakuya-labs/bakuya-labs)
-A proprietary trading terminal and stock screener designed for high-conviction traders. Built with TypeScript and optimized for low-latency market data visualization.
+**[Open TopBlast](https://topblast.gg)** · [Follow @_topblastgg on X](https://x.com/_topblastgg)
 
----
+### Stack
 
-### 📊 Vital Signs
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=bakuya-labs&show_icons=true&theme=tokyonight&hide_border=true" alt="Bakuya Labs Stats" />
-<br/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bakuya-labs&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-</p>
+`TypeScript` `Node.js` `Python` `Cloudflare Workers` `AWS`
 
 ---
 
-### 📬 Connect
-- **Email:** [contact@bakuyalabs.xyz](contact@bakuyalabs.xyz)
-- **Location:** New York, NY 🗽
+<sub>Bakuya Labs · New York, NY · [bakuyalabs.com](https://bakuyalabs.com)</sub>

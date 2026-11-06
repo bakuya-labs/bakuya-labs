@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" role="img" aria-labelledby="title desc">
+  <title id="title">TopBlast.gg</title>
+  <desc id="desc">TopBlast: trade the moment it breaks. A realtime token scanner and trading terminal for Robinhood Chain. The chart shows price ranging under its session high, then the first breakout.</desc>
+  <style>
+    @keyframes k0 { 0%, 14% { opacity: 1; } 18%, 20.0% { opacity: 0; } 21.2%, 100% { opacity: 1; } } .c0 { animation: k0 9s linear infinite; }
+    @keyframes k1 { 0%, 14% { opacity: 1; } 18%, 23.3% { opacity: 0; } 24.5%, 100% { opacity: 1; } } .c1 { animation: k1 9s linear infinite; }
+    @keyframes k2 { 0%, 14% { opacity: 1; } 18%, 26.6% { opacity: 0; } 27.8%, 100% { opacity: 1; } } .c2 { animation: k2 9s linear infinite; }
+    @keyframes k3 { 0%, 14% { opacity: 1; } 18%, 29.9% { opacity: 0; } 31.1%, 100% { opacity: 1; } } .c3 { animation: k3 9s linear infinite; }
+    @keyframes k4 { 0%, 14% { opacity: 1; } 18%, 33.2% { opacity: 0; } 34.4%, 100% { opacity: 1; } } .c4 { animation: k4 9s linear infinite; }
+    @keyframes k5 { 0%, 14% { opacity: 1; } 18%, 36.5% { opacity: 0; } 37.7%, 100% { opacity: 1; } } .c5 { animation: k5 9s linear infinite; }
+    @keyframes k6 { 0%, 14% { opacity: 1; } 18%, 39.8% { opacity: 0; } 41.0%, 100% { opacity: 1; } } .c6 { animation: k6 9s linear infinite; }
+    @keyframes k7 { 0%, 14% { opacity: 1; } 18%, 43.1% { opacity: 0; } 44.3%, 100% { opacity: 1; } } .c7 { animation: k7 9s linear infinite; }
+    @keyframes k8 { 0%, 14% { opacity: 1; } 18%, 46.4% { opacity: 0; } 47.6%, 100% { opacity: 1; } } .c8 { animation: k8 9s linear infinite; }
+    @keyframes k9 { 0%, 14% { opacity: 1; } 18%, 49.7% { opacity: 0; } 50.9%, 100% { opacity: 1; } } .c9 { animation: k9 9s linear infinite; }
+    @keyframes k10 { 0%, 14% { opacity: 1; } 18%, 53.0% { opacity: 0; } 54.2%, 100% { opacity: 1; } } .c10 { animation: k10 9s linear infinite; }
+    @keyframes k11 { 0%, 14% { opacity: 1; } 18%, 56.3% { opacity: 0; } 57.5%, 100% { opacity: 1; } } .c11 { animation: k11 9s linear infinite; }
+    @keyframes k12 { 0%, 14% { opacity: 1; } 18%, 59.6% { opacity: 0; } 60.8%, 100% { opacity: 1; } } .c12 { animation: k12 9s linear infinite; }
+    @keyframes k13 { 0%, 14% { opacity: 1; } 18%, 62.9% { opacity: 0; } 64.1%, 100% { opacity: 1; } } .c13 { animation: k13 9s linear infinite; }
+    @keyframes k14 { 0%, 14% { opacity: 1; } 18%, 66.2% { opacity: 0; } 67.4%, 100% { opacity: 1; } } .c14 { animation: k14 9s linear infinite; }
+    @keyframes k15 { 0%, 14% { opacity: 1; } 18%, 69.5% { opacity: 0; } 70.7%, 100% { opacity: 1; } } .c15 { animation: k15 9s linear infinite; }
+    @keyframes k16 { 0%, 14% { opacity: 1; } 18%, 72.8% { opacity: 0; } 74.0%, 100% { opacity: 1; } } .c16 { animation: k16 9s linear infinite; }
+    @keyframes kl { 0%, 14% { opacity: 1; } 18%, 77.3% { opacity: 0; } 78.8%, 100% { opacity: 1; } } .lbl { animation: kl 9s linear infinite; }
+    @media (prefers-reduced-motion: reduce) {
+      g { animation: none !important; }
+    }
+  </style>
+  <defs>
+    <clipPath id="tbcard"><rect width="1200" height="400" rx="14"/></clipPath>
+    <radialGradient id="tbglowbg" cx="0.22" cy="0.42" r="0.6">
+      <stop offset="0" stop-color="#0f3d2a" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#0f3d2a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="topline" x1="0" x2="1">
+      <stop offset="0" stop-color="#17e88f"/>
+      <stop offset="0.6" stop-color="#17e88f" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="tbglow" x="-200%" y="-50%" width="500%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <g clip-path="url(#tbcard)">
+    <rect width="1200" height="400" fill="#0a0e1a"/>
+    <rect width="1200" height="400" fill="url(#tbglowbg)"/>
+    <rect width="1200" height="2" fill="url(#topline)"/>
+
+    <g transform="translate(60 62) scale(0.3778)"><rect width="180" height="180" rx="42" fill="#0B0E13" stroke="#1E2733" stroke-width="1.5"/><path d="M44 82 L102 82 L102 140 L80 140 L80 104 L44 104 Z" fill="#0f9a62"/><path d="M66 40 L140 40 L140 114 L118 114 L118 62 L66 62 Z" fill="#17e88f"/></g>
+    <text x="58" y="206" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="66" font-weight="700" letter-spacing="-1.5" fill="#f3f6fa">TopBlast<tspan fill="#17e88f">.gg</tspan></text>
+    <text x="61" y="252" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="26" fill="#8b97a8">Trade the moment it breaks.</text>
+    <rect x="60" y="282" width="156" height="34" rx="17" fill="#0c1f19" stroke="#1f6b47"/><text x="138.0" y="304" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#17e88f">Robinhood Chain</text>
+    <rect x="226" y="282" width="132" height="34" rx="17" fill="#0f1522" stroke="#1e2736"/><text x="292.0" y="304" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="15" font-weight="500" fill="#9aa6b8">New launches</text>
+    <rect x="368" y="282" width="196" height="34" rx="17" fill="#0f1522" stroke="#1e2736"/><text x="466.0" y="304" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="15" font-weight="500" fill="#9aa6b8">Session highs &amp; lows</text>
+    <rect x="60" y="326" width="168" height="34" rx="17" fill="#0f1522" stroke="#1e2736"/><text x="144.0" y="348" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="15" font-weight="500" fill="#9aa6b8">One-click trading</text>
+    <rect x="238" y="326" width="152" height="34" rx="17" fill="#0f1522" stroke="#1e2736"/><text x="314.0" y="348" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="15" font-weight="500" fill="#9aa6b8">Wallet tracker</text>
+
+    <rect x="650" y="40" width="510" height="330" rx="12" fill="#0d1322" stroke="#1a2338"/>
+    <text x="672" y="68" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1.5" fill="#5b6b85">TOKEN / ETH · 1m</text>
+    <line x1="666" y1="271" x2="1134" y2="271" stroke="#141c2e" stroke-width="1"/>
+    <line x1="666" y1="213" x2="1134" y2="213" stroke="#141c2e" stroke-width="1"/>
+    <line x1="666" y1="154" x2="1134" y2="154" stroke="#141c2e" stroke-width="1"/>
+    <line x1="666" y1="96" x2="1134" y2="96" stroke="#141c2e" stroke-width="1"/>
+    <line x1="666" y1="352" x2="1134" y2="352" stroke="#1a2338" stroke-width="1"/>
+
+    <g class="c2">
+      <line x1="742.5" y1="160.1" x2="1134" y2="160.1" stroke="#4a5a76" stroke-width="1.4" stroke-dasharray="5 5"/>
+      <text x="758.5" y="151.1" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" letter-spacing="1.4" fill="#71819c">SESSION HIGH</text>
+    </g>
+
+    <g class="c0"><line x1="690.0" y1="253.4" x2="690.0" y2="282.5" stroke="#17e88f" stroke-width="1.6"/><rect x="683.5" y="259.2" width="13" height="11.7" rx="1.5" fill="#17e88f"/><rect x="683.5" y="343.2" width="13" height="8.8" rx="1" fill="#17e88f" fill-opacity="0.35"/></g>
+    <g class="c1"><line x1="716.2" y1="235.9" x2="716.2" y2="265.0" stroke="#17e88f" stroke-width="1.6"/><rect x="709.8" y="241.7" width="13" height="17.5" rx="1.5" fill="#17e88f"/><rect x="709.8" y="340.0" width="13" height="12.0" rx="1" fill="#17e88f" fill-opacity="0.35"/></g>
+    <g class="c2"><line x1="742.5" y1="160.1" x2="742.5" y2="247.5" stroke="#17e88f" stroke-width="1.6"/><rect x="736.0" y="183.4" width="13" height="58.3" rx="1.5" fill="#17e88f"/><rect x="736.0" y="320.8" width="13" height="31.2" rx="1" fill="#17e88f" fill-opacity="0.35"/></g>
+    <g class="c3"><line x1="768.8" y1="177.6" x2="768.8" y2="218.4" stroke="#ff4d6a" stroke-width="1.6"/><rect x="762.2" y="183.4" width="13" height="29.1" rx="1.5" fill="#ff4d6a"/><rect x="762.2" y="333.6" width="13" height="18.4" rx="1" fill="#ff4d6a" fill-opacity="0.35"/></g>
+    <g class="c4"><line x1="795.0" y1="200.9" x2="795.0" y2="235.9" stroke="#ff4d6a" stroke-width="1.6"/><rect x="788.5" y="212.6" width="13" height="14.6" rx="1.5" fill="#ff4d6a"/><rect x="788.5" y="338.4" width="13" height="13.6" rx="1" fill="#ff4d6a" fill-opacity="0.35"/></g>
+    <g class="c5"><line x1="821.2" y1="212.6" x2="821.2" y2="241.7" stroke="#17e88f" stroke-width="1.6"/><rect x="814.8" y="218.4" width="13" height="8.7" rx="1.5" fill="#17e88f"/><rect x="814.8" y="344.0" width="13" height="8.0" rx="1" fill="#17e88f" fill-opacity="0.35"/></g>
+    <g class="c6"><line x1="847.5" y1="206.7" x2="847.5" y2="233.0" stroke="#ff4d6a" stroke-width="1.6"/><rect x="841.0" y="218.4" width="13" height="11.7" rx="1.5" fill="#ff4d6a"/><rect x="841.0" y="344.8" width="13" height="7.2" rx="1" fill="#ff4d6a" fill-opacity="0.35"/></g>
+    <g class="c7"><line x1="873.8" y1="218.4" x2="873.8" y2="253.4" stroke="#ff4d6a" stroke-width="1.6"/><rect x="867.2" y="230.1" width="13" height="14.6" rx="1.5" fill="#ff4d6a"/><rect x="867.2" y="340.0" width="13" height="12.0" rx="1" fill="#ff4d6a" fill-opacity="0.35"/></g>
+    <g class="c8"><line x1="900.0" y1="224.2" x2="900.0" y2="250.5" stroke="#17e88f" stroke-width="1.6"/><rect x="893.5" y="227.1" width="13" height="17.5" rx="1.5" fill="#17e88f"/><rect x="893.5" y="342.4" width="13" height="9.6" rx="1" fill="#17e88f" fill-opacity="0.35"/></g>
+    <g class="c9"><line x1="926.2" y1="203.8" x2="926.2" y2="230.1" stroke="#17e88f" stroke-width="1.6"/><rect x="919.8" y="206.7" width="13" height="20.4" rx="1.5" fill="#17e88f"/><rect x="919.8" y="340.8" width="13" height="11.2" rx="1" fill="#17e88f" fill-opacity="0.35"/></g>
+    <g class="c10"><line x1="952.5" y1="183.4" x2="952.5" y2="212.6" stroke="#17e88f" stroke-width="1.6"/><rect x="946.0" y="189.3" width="13" height="17.5" rx="1.5" fill="#17e88f"/><rect x="946.0" y="337.6" width="13" height="14.4" rx="1" fill="#17e88f" fill-opacity="0.35"/></g>
+    <g class="c11"><line x1="978.8" y1="171.8" x2="978.8" y2="203.8" stroke="#ff4d6a" stroke-width="1.6"/><rect x="972.2" y="189.3" width="13" height="8.7" rx="1.5" fill="#ff4d6a"/><rect x="972.2" y="340.0" width="13" height="12.0" rx="1" fill="#ff4d6a" fill-opacity="0.35"/></g>
+    <g class="c12"><line x1="1005.0" y1="186.3" x2="1005.0" y2="212.6" stroke="#17e88f" stroke-width="1.6"/><rect x="998.5" y="192.2" width="13" height="5.8" rx="1.5" fill="#17e88f"/><rect x="998.5" y="343.2" width="13" height="8.8" rx="1" fill="#17e88f" fill-opacity="0.35"/></g>
+    <g class="c13"><line x1="1031.2" y1="165.9" x2="1031.2" y2="195.1" stroke="#17e88f" stroke-width="1.6"/><rect x="1024.8" y="171.8" width="13" height="20.4" rx="1.5" fill="#17e88f"/><rect x="1024.8" y="334.4" width="13" height="17.6" rx="1" fill="#17e88f" fill-opacity="0.35"/></g>
+    <g class="c14"><line x1="1057.5" y1="163.0" x2="1057.5" y2="186.3" stroke="#ff4d6a" stroke-width="1.6"/><rect x="1051.0" y="171.8" width="13" height="8.7" rx="1.5" fill="#ff4d6a"/><rect x="1051.0" y="336.0" width="13" height="16.0" rx="1" fill="#ff4d6a" fill-opacity="0.35"/></g>
+    <g class="c15"><line x1="1083.8" y1="168.9" x2="1083.8" y2="183.4" stroke="#17e88f" stroke-width="1.6"/><rect x="1077.2" y="171.8" width="13" height="8.7" rx="1.5" fill="#17e88f"/><rect x="1077.2" y="341.6" width="13" height="10.4" rx="1" fill="#17e88f" fill-opacity="0.35"/></g>
+    <g class="c16" filter="url(#tbglow)"><line x1="1110.0" y1="107.7" x2="1110.0" y2="174.7" stroke="#17e88f" stroke-width="1.6"/><rect x="1103.5" y="116.4" width="13" height="55.4" rx="1.5" fill="#17e88f"/><rect x="1103.5" y="312.0" width="13" height="40.0" rx="1" fill="#17e88f" fill-opacity="0.75"/></g>
+
+    <g class="lbl">
+      <line x1="1098.0" y1="107.7" x2="1076.0" y2="107.7" stroke="#17e88f" stroke-width="1.2"/>
+      <text x="1070.0" y="111.7" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="600" letter-spacing="1.2" fill="#17e88f">FIRST BREAK</text>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="399" rx="13.5" fill="none" stroke="#1a2232"/>
+</svg>
